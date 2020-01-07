@@ -1,10 +1,7 @@
 
 <?php include '../extend/header.php';
        include '../extend/permiso.php';
-       
        ?>  
-
-
 <div class="row">
     <div class="col s12">
     
@@ -16,9 +13,7 @@
       <ul class="tabs tabs-fixed-width ">
         <li class="tab "><a href="#usuario" class="active teal-text text-lighten-2">Nuevo Usuario</a></li>
         <li class="tab"><a  href="#lista"  class="teal-text text-lighten-2">Lista Usuarios</a></li>
-        <div class="indicator teal  lighten-2" style="z-index:1"></div>
-   
-        
+        <div class="indicator teal  lighten-2" style="z-index:1"></div>   
       </ul>
     </div>
     <div class="card-content grey lighten-4">
@@ -26,8 +21,6 @@
     
       <div class="row center-align">
                <div class="col s12 center-align" >
-
-
            <form clas="form" action="ins_usuario.php" method="post" enctype="multipart/form-data">
             <div class=input-field>
             <input type="text" id="nick" name="nick" required autofocus 
@@ -35,8 +28,7 @@
             <label for="nick">Nombre de Usuario: </label>
             </div>
             <div class=validacion></div>
-        
-            
+          
             <div class=input-field>
             <input type="password" id="pass1" name="pass1" required
             title="CONTRASEÑA CON NUMEROS, LETRAS MAYUSCULAS Y MINUSCULAS ENTRE 8 Y 15 CARACTERES" pattern="[A-Za-z0-9]{8,15}">
@@ -60,8 +52,7 @@
                 <?php }
                 ?>
             </select>
-        
-           
+            
             <div class=input-field>
             <input type="text" id="nombre" name="nombre" required
             title="Nombre del Usuario" pattern="[A-Za-z\s]+" onblur="may(this.value, this.id)">
@@ -86,7 +77,6 @@
 
             <button type="submit" class="btn" id="btn_guardar">Guardar </button>
             </form>
-
 
             </div>
            </div>
