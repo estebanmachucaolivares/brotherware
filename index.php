@@ -15,15 +15,13 @@
 <header>
 
     <div class="navbar-fixed">
-       <nav>
+       <nav class="z-depth-5">
           <div class="nav-wrapper teal darken-2" >
             <div class="row" >
               <div class="col m12 " >
              
-                <a href="#"  class="brand-logo valign-wrapper" > 
-                  <div >
-                  <img class="img-responsive"   src="admin/img/iconbw.png" height="5%" width="5%" >BrotherWare </div>
-               </a>
+                <a href="#"  class="brand-logo valign-wrapper" > BrotherWare 
+</a>
                 
               
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -31,7 +29,7 @@
                     <li><a href="sass.html">Sass</a></li>
                     <li><a href="badges.html">Components</a></li>
                     <li><a href="collapsible.html">Javascript</a></li>
-                    <li><a href="mobile.html"><i class="material-icons">account_circle</i></a></li>
+                    <li><a href="admin/index.php"><i class="material-icons">account_circle</i></a></li>
                 </ul>    
              </div>
            </div>
@@ -62,8 +60,8 @@
       <li>
         <img src="admin/img/fondo.png"> <!-- random image -->
         <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3>BrotherWare Official</h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
         </div>
       </li>
    
