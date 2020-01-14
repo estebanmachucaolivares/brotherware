@@ -14,16 +14,13 @@
   
 <header>
 
-    <div class="navbar-fixed">
-       <nav class="z-depth-5">
+    <div class="navbar-fixed" >
+       <nav class="z-depth-5" id="logo" >
           <div class="nav-wrapper teal darken-2" >
             <div class="row" >
               <div class="col m12 " >
-             
-                <a href="#"  class="brand-logo valign-wrapper" > BrotherWare 
-</a>
-                
-              
+                <a href="#"  class="logo" > <img src="admin/img/icon1.png"></a> 
+                <a href="#"  class="brand-logo valign-wrapper" >BrotherWare</a> 
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="right hide-on-med-and-down">
                     <li><a href="sass.html">Sass</a></li>
